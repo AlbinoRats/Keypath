@@ -1,0 +1,10 @@
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\bin\Debug\Keypath.exe.config
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\bin\Debug\Keypath.exe
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\bin\Debug\Keypath.pdb
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\obj\Debug\Keypath.csprojResolveAssemblyReference.cache
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\obj\Debug\Keypath.Form1.resources
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\obj\Debug\Keypath.Properties.Resources.resources
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\obj\Debug\Keypath.csproj.GenerateResource.Cache
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\obj\Debug\Keypath.exe
+c:\users\chen\documents\visual studio 2013\Projects\Keypath\Keypath\obj\Debug\Keypath.pdb
+C:\Users\CHEN\documents\visual studio 2013\Projects\Keypath\Keypath\obj\Debug\Keypath.Form2.resources
