@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Label1 = new System.Windows.Forms.TextBox();
+            this.DirectoryBox = new System.Windows.Forms.TextBox();
             this.Browse = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.ListBox = new System.Windows.Forms.ListBox();
+            this.Add = new System.Windows.Forms.Button();
+            this.Remove = new System.Windows.Forms.Button();
+            this.Save = new System.Windows.Forms.Button();
+            this.Cancel = new System.Windows.Forms.Button();
+            this.SettingLabel = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
-            // Label1
+            // DirectoryBox
             // 
-            this.Label1.Location = new System.Drawing.Point(178, 43);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(236, 20);
-            this.Label1.TabIndex = 0;
-            this.Label1.TextChanged += new System.EventHandler(this.Label1_TextChanged);
+            this.DirectoryBox.Location = new System.Drawing.Point(178, 43);
+            this.DirectoryBox.Name = "DirectoryBox";
+            this.DirectoryBox.Size = new System.Drawing.Size(236, 20);
+            this.DirectoryBox.TabIndex = 0;
+            this.DirectoryBox.TextChanged += new System.EventHandler(this.Label1_TextChanged);
             // 
             // Browse
             // 
@@ -59,60 +59,60 @@
             this.Browse.UseVisualStyleBackColor = true;
             this.Browse.Click += new System.EventHandler(this.Browse_Click_1);
             // 
-            // listBox1
+            // ListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 28);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(162, 134);
-            this.listBox1.TabIndex = 2;
+            this.ListBox.FormattingEnabled = true;
+            this.ListBox.Location = new System.Drawing.Point(12, 28);
+            this.ListBox.Name = "ListBox";
+            this.ListBox.Size = new System.Drawing.Size(162, 134);
+            this.ListBox.TabIndex = 2;
             // 
-            // button1
+            // Add
             // 
-            this.button1.Location = new System.Drawing.Point(180, 111);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Add.Location = new System.Drawing.Point(180, 111);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(75, 23);
+            this.Add.TabIndex = 3;
+            this.Add.Text = "Add";
+            this.Add.UseVisualStyleBackColor = true;
+            this.Add.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // Remove
             // 
-            this.button2.Location = new System.Drawing.Point(180, 139);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Remove";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Remove.Location = new System.Drawing.Point(180, 139);
+            this.Remove.Name = "Remove";
+            this.Remove.Size = new System.Drawing.Size(75, 23);
+            this.Remove.TabIndex = 4;
+            this.Remove.Text = "Remove";
+            this.Remove.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Save
             // 
-            this.button3.Location = new System.Drawing.Point(321, 139);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Save";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Save.Location = new System.Drawing.Point(321, 139);
+            this.Save.Name = "Save";
+            this.Save.Size = new System.Drawing.Size(75, 23);
+            this.Save.TabIndex = 5;
+            this.Save.Text = "Save";
+            this.Save.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Cancel
             // 
-            this.button4.Location = new System.Drawing.Point(420, 139);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Cancel";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Cancel.Location = new System.Drawing.Point(420, 139);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(75, 23);
+            this.Cancel.TabIndex = 6;
+            this.Cancel.Text = "Cancel";
+            this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
-            // label2
+            // SettingLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(235, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Settings";
+            this.SettingLabel.AutoSize = true;
+            this.SettingLabel.Location = new System.Drawing.Point(235, 9);
+            this.SettingLabel.Name = "SettingLabel";
+            this.SettingLabel.Size = new System.Drawing.Size(45, 13);
+            this.SettingLabel.TabIndex = 7;
+            this.SettingLabel.Text = "Settings";
             // 
             // contextMenuStrip1
             // 
@@ -125,14 +125,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(507, 180);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.SettingLabel);
+            this.Controls.Add(this.Cancel);
+            this.Controls.Add(this.Save);
+            this.Controls.Add(this.Remove);
+            this.Controls.Add(this.Add);
+            this.Controls.Add(this.ListBox);
             this.Controls.Add(this.Browse);
-            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.DirectoryBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.Text = "Form2";
@@ -144,15 +144,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Label1;
+        private System.Windows.Forms.TextBox DirectoryBox;
         private System.Windows.Forms.Button Browse;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox ListBox;
+        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.Button Remove;
+        private System.Windows.Forms.Button Save;
+        private System.Windows.Forms.Button Cancel;
+        private System.Windows.Forms.Label SettingLabel;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
 
 

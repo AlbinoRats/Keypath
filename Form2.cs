@@ -57,7 +57,7 @@ namespace Keypath
         private void button1_Click(object sender, EventArgs e)
         {
             string promptValue = ShowDialog("Keyword", "Add New");
-            listBox1.Items.Add(promptValue);
+            ListBox.Items.Add(promptValue);
         }
         private static string ShowDialog(string text, string caption)
         {
@@ -84,7 +84,7 @@ namespace Keypath
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Cancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }
