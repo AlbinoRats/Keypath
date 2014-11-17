@@ -47,7 +47,7 @@
             this.DirectoryBox.Name = "DirectoryBox";
             this.DirectoryBox.Size = new System.Drawing.Size(236, 20);
             this.DirectoryBox.TabIndex = 0;
-            this.DirectoryBox.TextChanged += new System.EventHandler(this.Label1_TextChanged);
+            this.DirectoryBox.TextChanged += new System.EventHandler(this.SettingLabel_TextChanged);
             // 
             // Browse
             // 
@@ -75,7 +75,7 @@
             this.Add.TabIndex = 3;
             this.Add.Text = "Add";
             this.Add.UseVisualStyleBackColor = true;
-            this.Add.Click += new System.EventHandler(this.button1_Click);
+            this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
             // Remove
             // 
