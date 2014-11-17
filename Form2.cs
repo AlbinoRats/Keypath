@@ -73,6 +73,7 @@ namespace Keypath
             Button confirmation = new Button() { Text = "Ok", Left = 350, Width = 100, Top = 150 };
             Button folder = new Button() { Text = "Browse", Left = 355, Width = 70, Top = 119 };
             confirmation.Click += (sender, e) => { prompt.Close(); };
+            //folder.Click += (sender, e) => { Browse_Click_1(sender, e); };
             prompt.Controls.Add(textBox);
             prompt.Controls.Add(confirmation);
             prompt.Controls.Add(textLabel);
